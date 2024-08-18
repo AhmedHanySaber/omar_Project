@@ -29,7 +29,7 @@ public:
         Order order(supplier);
         for (auto item : orderItems) {
             order.addItem(item);
-            item->addStock(100); // example restock quantity
+            item->addStock(100); 
         }
         orders.push_back(order);
     }
